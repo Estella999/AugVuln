@@ -1,0 +1,32 @@
+#!/bin/bash
+
+python run.py \
+    --do_test \
+    --language c \
+    --train_data_file ../dataset/cdata/D2A/train_cdata.jsonl \
+    --test_data_file ../dataset/cdata/D2A/test_javadata.jsonl \
+    --output_dir ../results/cnn_CVAE+CL_epo2+8_kf2_D2Adata \
+    --pkl_file ../dataset/cdata/D2A/short_3path_cdata_nobalance.pkl \
+    --model_type roberta \
+    --tokenizer_name models/codebert \
+    --config_name models/codebert \
+    --model_name_or_path models/codebert \
+    --VCEorCGE False \
+    --threshold 0.5 \
+    --train_batch_size 8 \
+    --eval_batch_size 64 \
+    --epoch 2 \
+    --cl_epoch 8 \
+    --splits_num 2 \
+    --encoder_layer_sizes 0 \
+    --decoder_layer_sizes 0 \
+    --latent_size 5 \
+    --lr 0.005 \
+    --d_size 128 \
+    --block_size 400 \
+    --evaluate_during_training \
+    --learning_rate 2e-5 \
+    --num_train_epochs 1 \
+    --logging_steps 50 \
+    --save_steps 50 \
+    --seed 123456

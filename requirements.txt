@@ -1,0 +1,10 @@
+apex==0.9.10dev
+cleanlab==0.1.1
+networkx==2.8.5
+numpy==1.22.3
+pandas==2.0.3
+ptvsd==4.3.2
+scikit_learn==1.1.1
+torch==1.10.0+cu111
+tqdm==4.66.1
+transformers==4.33.2
