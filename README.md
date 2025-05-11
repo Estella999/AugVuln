@@ -72,8 +72,7 @@ Contains pretrained models and scripts for model training.
 Please modify data.sh to set the appropriate dataset subdirectory (e.g., cdata/D2A/, cdata/VDR/, etc.).
 Repeat this step if you want to generate .pkl files for multiple datasets.
 
-###`Step 3:Training & Evaluation`
----
+### `Step 4:Training & Evaluation`
 `bash train.sh`
 
 `bash test.sh`
