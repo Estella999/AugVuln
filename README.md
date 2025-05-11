@@ -67,6 +67,7 @@ Contains pretrained models and scripts for model training.
   
 ### `Step 3: Preprocess the Dataset`
 `cd code`
+
 `bash data.sh`
 
 Please modify data.sh to set the appropriate dataset subdirectory (e.g., cdata/D2A/, cdata/VDR/, etc.).
@@ -75,8 +76,8 @@ Repeat this step if you want to generate .pkl files for multiple datasets.
 ###`Step 3:Training & Evaluation`
 ---
 `bash train.sh`
+
 `bash test.sh`
 
 =======
 # AugVuln
->>>>>>> 6e167c02ea7bb10a6e9876559a0d980e3e8dc3fc
