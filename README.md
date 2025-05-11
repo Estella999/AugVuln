@@ -73,10 +73,9 @@ Please modify data.sh to set the appropriate dataset subdirectory (e.g., cdata/D
 Repeat this step if you want to generate .pkl files for multiple datasets.
 
 ###`Step 3:Training & Evaluation`
+---
 `bash train.sh`
 `bash test.sh`
----
-
 
 =======
 # AugVuln
