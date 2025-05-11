@@ -50,7 +50,7 @@ Contains pretrained models and scripts for model training.
 - **`CVAE`** Conditional Variational Autoencoder (CVAE) model files.
 
 ## Replication Process
-### Step 1: Clone the Repository
+### `Step 1: Clone the Repository`
 
 `cd AugVuln`
 
